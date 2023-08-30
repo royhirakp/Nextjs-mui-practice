@@ -1,0 +1,7 @@
+.bg {
+  background-image: url("../assets/logo/bgcireclelogo.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-color: rgb(246, 246, 247);
+}

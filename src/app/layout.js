@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
                 marginLeft: "auto",
               }}
               maxWidth="1280px"
-              // className={css.bg}
             >
               <Header />
               {children}

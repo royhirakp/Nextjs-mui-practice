@@ -21,6 +21,7 @@ const globalTheam = createTheme({
         },
         text: {
           padding: "0px",
+          textTransform: "none",
         },
       },
     },

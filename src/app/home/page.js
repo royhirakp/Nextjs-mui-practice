@@ -24,8 +24,6 @@ const index = () => {
                 xs: "100%",
                 md: "50%",
               },
-              // display: "flex",
-              // justifyContent: "center",
             }}
           >
             <Typography
@@ -81,7 +79,6 @@ const index = () => {
               justifyContent: "center",
             }}
           >
-            {/* image cards */}
             <Box
               sx={{
                 display: {
@@ -99,7 +96,6 @@ const index = () => {
             </Box>
           </Box>
         </Stack>
-        {/* ongoing Progtem */}
         <Box>
           <Typography
             variant="h4"
@@ -131,7 +127,7 @@ const index = () => {
       <Footer />
 
       {/* AMAZON */}
-      <Amazon />
+      {/* <Amazon /> */}
     </>
   );
 };

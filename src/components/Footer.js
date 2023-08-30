@@ -7,6 +7,7 @@ import logo from "../assets/logo/headerLogo.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
+import IconButton from "@mui/material/IconButton";
 
 const Footer = () => {
   return (
@@ -40,15 +41,15 @@ const Footer = () => {
       </Stack>
 
       <Stack direction="row" spacing={0}>
-        <Button variant="text">
+        <IconButton aria-label="linkedIcon ">
           <LinkedInIcon />{" "}
-        </Button>
-        <Button variant="text">
+        </IconButton>
+        <IconButton aria-label="linkedIcon">
           <InstagramIcon />
-        </Button>
-        <Button variant="text">
+        </IconButton>
+        <IconButton aria-label="linkedIcon">
           <SportsBasketballIcon />
-        </Button>
+        </IconButton>
       </Stack>
     </Box>
   );
